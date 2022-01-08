@@ -1,0 +1,124 @@
+{
+    margin: 500;
+    padding: 0;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: right;
+    height: 100vh;
+    width: 100vh;
+    background: url('curve.jpg');
+    background-repeat: no-repeat;
+    text-align-last: 40px;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 60px;
+    margin: 30px;
+    border-radius: 60px;
+    margin-right: 50px;
+}
+
+#user{
+    background-image: url(images/Page-1.png);
+    background-repeat: no-repeat;
+
+
+}
+
+#email{
+    background-image: url(images/email.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#password{
+    background-image: url(images/password.jpg);
+    background-repeat: no-repeat;
+
+}
+#facebook{
+    background-image: url(images/Path\ 151.png);
+    background-repeat: no-repeat;
+
+}
+
+#twitter{
+    background-image: url(images/Path\ 152.png);
+    background-repeat: no-repeat;
+}
+
+#google{
+    background-image: url(images/google.png);
+    background-repeat: no-repeat;
+}
+
+#linkedin{
+    background-image: url(images/linkdin.jpg);
+    background-repeat: no-repeat;
+}
+
+button{
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    background-color: blue;
+    border: blue;
+    color: white;
+    margin-top: auto;
+    margin-left: 75px;
+    border-radius: 200px;
+}
+form h1{
+    margin-bottom: 30px;
+    
+    text-indent: 1em;
+}
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 3.8em 4.5em;
+    text-indent: 20px;
+    background:transparent;
+}
+form{
+    margin-left: 20%;
+    padding-left: 2em;
+    margin-right: -120%;
+}
+
+.socialmedia{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    color: white;
+
+}
+
+
+
+
+
+/* .button1{
+height: 40px;
+width: 250px;
+font-size: 20px;
+background-color: gold;
+border:solid white 4px;
+margin-top: 0%;
+margin-left: -200%; */
+
+
+
+.h1{
+    padding-right: 5em;
+}
