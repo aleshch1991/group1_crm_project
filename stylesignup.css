@@ -3,9 +3,14 @@
     padding:0;
     box-sizing:border-box;
 }
+
 .box{
     align-items: auto;
-    margin: 200px;
+    justify-content:center;
+    margin: 60px;
+    margin-left: 60px;
+    display:absolute;
+    margin-top: 80px;
 }
 
 body{
@@ -17,16 +22,16 @@ body{
     width: 100vh;
     /* background-image: url('signup.jpg');
     background-repeat: no-repeat; */
-    margin-left: 40px;
+    margin-left: 0px;
 }
 input{
     display: block;
     width: 450px;
-    height: 60px;
-    margin: auto;
+    height: 70px;
+    margin: 60px;
     border-radius: 200px;
-    margin-left: 30px;
-    margin-top: 60px;
+    margin-left: 25px;
+    margin-top: 40px;
 }
 button{
     height: 40px;
@@ -36,11 +41,66 @@ button{
     border: blue;
     color: white;
     margin-top: 60px;
-    margin-left: 125px;
+    margin-left: 155px;
     border-radius: 200px;
 
 }
-container{
-    display: inline;
+.container{
+    display: flex;
+    
 
 }
+
+.container button{
+    width:200px;
+    height:50px;
+    background-color: #0850f8;
+    font-weight:700;
+}
+
+.signup h5{
+    display:absolute;
+    margin: 20px;
+    left: 500px;
+    margin-left: 130px;
+    
+}
+
+.socialimg{
+    border: 1px black solid;
+    border-radius: 50px;
+    height:65px;
+    width:65px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:15px;
+    margin-left: 35px;
+}
+
+#socialicons{
+    display:flex;
+    align-items:center;
+}
+
+.header{
+    margin-left: 166px;
+}
+#password{background-image: url(password.jpg);
+    background-repeat: no-repeat;
+    background-position: 12px 12px;
+    
+
+}
+#email{
+    background-image: url(email.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+#user{
+    background-image: url(user.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+
+    }    
